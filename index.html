@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yiming Zhai | UWaterloo CS Student</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orbit"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#top">YZ</a>
+        <nav class="nav" id="site-nav">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="lang-toggle" id="lang-toggle" type="button">??</button>
+      </div>
+      <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <button class="mobile-close" id="mobile-close" type="button" aria-label="Close menu">x</button>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Seeking co-op opportunities</p>
+            <h1 class="hero-title" data-i18n="hero.title">Yiming Zhai</h1>
+            <p class="hero-role" data-i18n="hero.role">2nd-year Computer Science @ University of Waterloo</p>
+            <p class="hero-tagline" data-i18n="hero.tagline">
+              Building backend-first web projects and tools, always learning fast.
+            </p>
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects" data-i18n="hero.ctaPrimary">View projects</a>
+              <a class="btn ghost" href="#contact" data-i18n="hero.ctaSecondary">Contact me</a>
+            </div>
+            <div class="hero-meta">
+              <span data-i18n="hero.location">Waterloo, ON</span>
+              <span class="dot">&middot;</span>
+              <span data-i18n="hero.availability">Open for 2025 co-op</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-inner">
+              <p class="card-title" data-i18n="hero.cardTitle">Snapshot</p>
+              <ul class="card-list">
+                <li data-i18n="hero.card1">UWaterloo CS (2nd year)</li>
+                <li data-i18n="hero.card2">Built multiple course + personal projects</li>
+                <li data-i18n="hero.card3">Interested in backend, systems, and product impact</li>
+              </ul>
+              <div class="card-tags">
+                <span>C</span>
+                <span>C++</span>
+                <span>PostgreSQL</span>
+                <span>Golang</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="about.title">About</h2>
+            <p data-i18n="about.subtitle">A short note on how I learn and build.</p>
+          </div>
+          <div class="about-grid">
+            <p class="about-text" data-i18n="about.body">
+              I like breaking down messy problems into shippable features. In coursework and side projects, I focus
+              on clean data models, reliable APIs, and readable code. I'm looking for a co-op role where I can
+              contribute quickly and keep growing.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <h3 data-i18n="about.highlight1Title">Fast learner</h3>
+                <p data-i18n="about.highlight1Body">Pick up new tools quickly and move work forward independently.</p>
+              </div>
+              <div class="highlight">
+                <h3 data-i18n="about.highlight2Title">Engineering fundamentals</h3>
+                <p data-i18n="about.highlight2Body">Care about data structures, systems thinking, and code quality.</p>
+              </div>
+              <div class="highlight">
+                <h3 data-i18n="about.highlight3Title">Team mindset</h3>
+                <p data-i18n="about.highlight3Body">Clear communication and iterative improvement through feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="projects.title">Selected Projects</h2>
+            <p data-i18n="projects.subtitle">Projects that show my hands-on work.</p>
+          </div>
+          <div class="project-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="experience.title">Experience</h2>
+            <p data-i18n="experience.subtitle">Campus work, teamwork, and building experience.</p>
+          </div>
+          <div class="timeline" id="experience-list"></div>
+        </div>
+      </section>
+
+      <section class="section alt" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="skills.title">Skills</h2>
+            <p data-i18n="skills.subtitle">Languages and tools I use the most.</p>
+          </div>
+          <div class="skills-grid" id="skills-list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-card">
+            <div>
+              <h2 data-i18n="contact.title">Let's connect</h2>
+              <p data-i18n="contact.subtitle">Happy to chat about co-op roles, projects, or collaboration.</p>
+            </div>
+            <div class="contact-actions">
+              <a class="btn primary" href="mailto:yimingdi8@gmail.com" data-i18n="contact.email">Email me</a>
+              <a class="btn ghost" href="https://github.com/AaronZ1825" data-i18n="contact.github">GitHub</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/yiming-zhai-ab0744346/" data-i18n="contact.linkedin">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span data-i18n="footer.note">Designed & built by Yiming Zhai &middot; 2026</span>
+        <span data-i18n="footer.location">Waterloo, Canada</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
