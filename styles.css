@@ -319,6 +319,9 @@ img {
   gap: 10px;
   color: var(--muted);
   font-size: 15px;
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 20px;
 }
 
 .card-tags {
@@ -337,6 +340,7 @@ img {
 
 .section {
   padding: 70px 0;
+  scroll-margin-top: 90px;
 }
 
 .section.alt {
@@ -479,6 +483,28 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.resume-card {
+  background: #fffaf5;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(29, 26, 23, 0.12);
+  box-shadow: 0 18px 40px var(--shadow);
+  display: grid;
+  gap: 18px;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.resume-card h3 {
+  font-size: 20px;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .contact-card .btn.ghost {
   border-color: rgba(244, 239, 233, 0.4);
   color: var(--paper);
@@ -572,6 +598,7 @@ img {
 
   .section {
     padding: 52px 0;
+    scroll-margin-top: 110px;
   }
 
   .section-header {
@@ -623,4 +650,3 @@ img {
     font-size: 14px;
   }
 }
-

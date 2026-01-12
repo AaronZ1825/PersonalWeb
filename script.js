@@ -4,6 +4,7 @@
       about: "About",
       projects: "Projects",
       experience: "Experience",
+      resume: "Resume",
       skills: "Skills",
       contact: "Contact"
     },
@@ -33,6 +34,14 @@
       highlight3Title: "Team mindset",
       highlight3Body: "Clear communication and iterative improvement through feedback."
     },
+    resume: {
+      title: "Resume",
+      subtitle: "A quick download link for my latest resume.",
+      cardTitle: "Download my resume",
+      cardBody: "PDF, updated Jan 2026.",
+      ctaPrimary: "Download PDF",
+      ctaSecondary: "View in browser"
+    },
     projects: {
       title: "Selected Projects",
       subtitle: "Projects that show my hands-on work.",
@@ -46,7 +55,7 @@
           linkLabel: "Repo (Private)"
         },
         {
-          title: "RAIInet (CS246)",
+          title: "RAIInet",
           description:
             "C++20 modules turn-based board game with text and X11 graphics, abilities, and CLI-driven gameplay.",
           stack: ["C++20", "X11", "Modules", "CLI"],
@@ -121,6 +130,7 @@
       about: "关于",
       projects: "项目",
       experience: "经历",
+      resume: "简历",
       skills: "技能",
       contact: "联系"
     },
@@ -150,6 +160,14 @@
       highlight3Title: "团队协作",
       highlight3Body: "沟通清晰，愿意在反馈中迭代改进。"
     },
+    resume: {
+      title: "简历",
+      subtitle: "下载我的最新简历。",
+      cardTitle: "获取简历",
+      cardBody: "PDF 格式",
+      ctaPrimary: "下载 PDF",
+      ctaSecondary: "浏览器查看"
+    },
     projects: {
       title: "项目",
       subtitle: "展示我实践过的项目。",
@@ -162,7 +180,7 @@
           linkLabel: "仓库 （私密）"
         },
         {
-          title: "RAIInet（CS246）",
+          title: "RAIInet",
           description: "C++20 模块化回合制棋盘游戏，支持文本与 X11 图形界面、技能系统和命令行玩法。",
           stack: ["C++20", "X11", "Modules", "CLI"],
           link: "https://github.com/AaronZ1825/RAIInet",
