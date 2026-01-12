@@ -107,7 +107,7 @@
         "PostgreSQL",
         "Golang",
         "Git / Linux",
-        "ARMv8",
+        "ARMv8(introductory level)",
         "MS Office"
       ]
     },
@@ -229,7 +229,7 @@
         "PostgreSQL",
         "Golang",
         "Git / Linux",
-        "ARMv8",
+        "ARMv8(入门级)",
         "MS Office"
       ]
     },
