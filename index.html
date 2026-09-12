@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Yiming Zhai | UWaterloo CS Student</title>
+    <meta name="description" content="Yiming Zhai, University of Waterloo Computer Science student. Backend systems, Microsoft Dynamics NAV ERP development, and AI-assisted supply-chain workflows." />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
@@ -12,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <!-- Cache-bust: update v=YYYYMMDD when styles.css changes. -->
-    <link rel="stylesheet" href="styles.css?v=20260112" />
+    <link rel="stylesheet" href="styles.css?v=20260912" />
   </head>
   <body>
     <div class="bg-orbit"></div>
@@ -23,6 +24,7 @@
         <a class="logo" href="#top">YZ</a>
         <nav class="nav" id="site-nav">
           <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
           <a href="#projects" data-i18n="nav.projects">Projects</a>
           <a href="#experience" data-i18n="nav.experience">Experience</a>
           <a href="#resume" data-i18n="nav.resume">Resume</a>
@@ -34,11 +36,12 @@
           <span></span>
           <span></span>
         </button>
-        <button class="lang-toggle" id="lang-toggle" type="button">??</button>
+        <button class="lang-toggle" id="lang-toggle" type="button">中文</button>
       </div>
       <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
         <button class="mobile-close" id="mobile-close" type="button" aria-label="Close menu">x</button>
         <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
         <a href="#projects" data-i18n="nav.projects">Projects</a>
         <a href="#experience" data-i18n="nav.experience">Experience</a>
         <a href="#resume" data-i18n="nav.resume">Resume</a>
@@ -54,9 +57,9 @@
           <div class="hero-copy">
             <p class="eyebrow" data-i18n="hero.eyebrow">Seeking co-op opportunities</p>
             <h1 class="hero-title" data-i18n="hero.title">Yiming Zhai</h1>
-            <p class="hero-role" data-i18n="hero.role">2nd-year Computer Science @ University of Waterloo</p>
+            <p class="hero-role" data-i18n="hero.role">Computer Science @ University of Waterloo</p>
             <p class="hero-tagline" data-i18n="hero.tagline">
-              Building backend-first web projects and tools, always learning fast.
+              Building reliable backend systems, ERP integrations, and AI-assisted supply-chain workflows.
             </p>
             <div class="hero-cta">
               <a class="btn primary" href="#projects" data-i18n="hero.ctaPrimary">View projects</a>
@@ -65,22 +68,24 @@
             <div class="hero-meta">
               <span data-i18n="hero.location">Waterloo, ON</span>
               <span class="dot">&middot;</span>
-              <span data-i18n="hero.availability">Open for 2025 co-op</span>
+              <span data-i18n="hero.availability">Open to co-op opportunities</span>
             </div>
           </div>
           <div class="hero-card">
             <div class="hero-card-inner">
               <p class="card-title" data-i18n="hero.cardTitle">Snapshot</p>
               <ul class="card-list">
-                <li data-i18n="hero.card1">UWaterloo CS (2nd year)</li>
-                <li data-i18n="hero.card2">Built multiple course + personal projects</li>
-                <li data-i18n="hero.card3">Interested in backend, systems, and product impact</li>
+                <li data-i18n="hero.card1">UWaterloo CS</li>
+                <li data-i18n="hero.card2">ERP development at Sailun Tires Americas</li>
+                <li data-i18n="hero.card3">Backend, systems, and AI-assisted workflows</li>
               </ul>
               <div class="card-tags">
                 <span>C</span>
                 <span>C++</span>
                 <span>PostgreSQL</span>
                 <span>Golang</span>
+                <span>Dynamics NAV</span>
+                <span>Dify</span>
               </div>
             </div>
           </div>
@@ -95,9 +100,7 @@
           </div>
           <div class="about-grid">
             <p class="about-text" data-i18n="about.body">
-              I like breaking down messy problems into shippable features. In coursework and side projects, I focus
-              on clean data models, reliable APIs, and readable code. I'm looking for a co-op role where I can
-              contribute quickly and keep growing.
+              I'm a Computer Science student at the University of Waterloo who likes breaking down messy problems into shippable features. Through co-op roles at Sailun Tires Americas and Hongsheng North America, I've worked on ERP business logic, external system integrations, and enterprise IT support. My coursework and personal projects explore reliable APIs, clean data models, C++ systems, and AI-assisted supply-chain workflows. I'm looking for a co-op role where I can contribute quickly and keep growing.
             </p>
             <div class="about-highlights">
               <div class="highlight">
@@ -117,20 +120,47 @@
         </div>
       </section>
 
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="education.title">Education</h2>
+            <p data-i18n="education.subtitle">Computer science foundations and a background in mathematics.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 data-i18n="education.school">University of Waterloo</h3>
+            <p class="timeline-meta" data-i18n="education.degree">Bachelor of Computer Science | Sept 2024 – Present</p>
+            <dl class="education-details">
+              <div>
+                <dt data-i18n="education.courseworkTitle">Relevant coursework</dt>
+                <dd data-i18n="education.coursework">User Interfaces, Compilers, Computer Architecture, Neural Networks</dd>
+              </div>
+              <div>
+                <dt data-i18n="education.scholarshipsTitle">Scholarships</dt>
+                <dd data-i18n="education.scholarships">President's Scholarship; René Descartes National Scholarship</dd>
+              </div>
+              <div>
+                <dt data-i18n="education.awardsTitle">Awards</dt>
+                <dd data-i18n="education.awards">COMC NB Gold Award; Euclid Competition — Second Place in New Brunswick</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
       <section id="resume" class="section alt">
         <div class="container">
           <div class="section-header">
             <h2 data-i18n="resume.title">Resume</h2>
-            <p data-i18n="resume.subtitle">A quick download link for my latest resume.</p>
+            <p data-i18n="resume.subtitle">Download or view my latest resume.</p>
           </div>
           <div class="resume-card">
             <div>
               <h3 data-i18n="resume.cardTitle">Download my resume</h3>
-              <p data-i18n="resume.cardBody">PDF, updated Aug 2025. Includes projects and experience.</p>
+              <p data-i18n="resume.cardBody">PDF · 2026 3A version.</p>
             </div>
             <div class="resume-actions">
-              <a class="btn primary" href="Yiming_Zhai_s_Resume_2026_2B.pdf" data-i18n="resume.ctaPrimary" download>Download PDF</a>
-              <a class="btn ghost" href="Yiming_Zhai_s_Resume_2026_2B.pdf" data-i18n="resume.ctaSecondary" target="_blank" rel="noopener">View in browser</a>
+              <a class="btn primary" href="Yiming_Zhai_s_Resume_2026_3A.pdf" data-i18n="resume.ctaPrimary" download>Download PDF</a>
+              <a class="btn ghost" href="Yiming_Zhai_s_Resume_2026_3A.pdf" data-i18n="resume.ctaSecondary" target="_blank" rel="noopener">View in browser</a>
             </div>
           </div>
         </div>
@@ -150,7 +180,7 @@
         <div class="container">
           <div class="section-header">
             <h2 data-i18n="experience.title">Experience</h2>
-            <p data-i18n="experience.subtitle">Campus work, teamwork, and building experience.</p>
+            <p data-i18n="experience.subtitle">ERP development, enterprise IT, and earlier teaching and teamwork experience.</p>
           </div>
           <div class="timeline" id="experience-list"></div>
         </div>
@@ -191,6 +221,6 @@
     </footer>
 
     <!-- Cache-bust: update v=YYYYMMDD when script.js changes. -->
-    <script src="script.js?v=20260112"></script>
+    <script src="script.js?v=20260912-2"></script>
   </body>
 </html>
